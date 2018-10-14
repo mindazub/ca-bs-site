@@ -1,0 +1,33 @@
+
+#heroSection {
+    background: lightgrey;
+    padding: 100px;
+    background-image: url("../img/wood.jpg");
+    color: white;
+}
+
+#heroContainer {
+    align: center;
+}
+
+.androidIcon {
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+
+#iconsInside {
+    width: 100%;
+    display: flex;
+}
+
+.myButton {
+    border: 1px solid green;
+    color: green;
+}
+
+.centeredEmailFields {
+    display: block;
+}
