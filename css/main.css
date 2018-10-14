@@ -1,9 +1,10 @@
 
 #heroSection {
-    background: lightgrey;
     padding: 100px;
-    background-image: url("../img/wood.jpg");
-    color: white;
+    background-image: url("../img/solar-wind-large.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: darkolivegreen;
 }
 
 #heroContainer {
@@ -15,12 +16,22 @@
     align-items: center;
     padding-top: 25px;
 }
-
+#heroContainer > h3 {
+    margin-bottom: 25px;
+}
+.myA {
+    /*float: left;*/
+    display: block;
+}
 #threeIconsSection {
     margin-top: 35px;
     margin-bottom: 45px;
 }
-
+#threeIconsSection h1 {
+    margin-top: 15px;
+    font-family: 'Just Another Hand', cursive;
+    text-transform: uppercase;
+}
 #iconsInside {
     width: 100%;
     display: flex;
