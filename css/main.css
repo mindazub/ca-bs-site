@@ -14,13 +14,45 @@
     width: 100%;
     align-items: center;
     padding-top: 25px;
-
 }
 
+#threeIconsSection {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
 
 #iconsInside {
     width: 100%;
     display: flex;
+}
+.input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.myFont {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 4em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.insideEmailFields .myInput > input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.myButtonOfInput {
+    margin-top: 25px;
+    width: 350px;
+}
+
+.myIcon{
+    color: green;
 }
 
 .myButton {
@@ -30,4 +62,36 @@
 
 .centeredEmailFields {
     display: block;
+    margin: 0 auto;
+    height: 300px;
 }
+
+.insideEmailFields {
+    display: block;
+}
+
+#emailMeSection {
+    padding: 50px;
+    background-image: url("../img/connectwork.png");
+    color: white;
+    height: 555px;
+}
+
+.myMap {
+    height: 400px;
+}
+
+.mySocialIcons {
+    background-color: black;
+    height: 100px;
+    color: white;
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
